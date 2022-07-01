@@ -46,7 +46,7 @@
          <string>版权条款（GPLv3）</string>
         </property>
         <property name="description">
-         <string>https://github.com/GoodCoder666/AccountBook/blob/master/LICENSE</string>
+         <string>https://github.com/GoodCoder666/AccountBook/blob/main/LICENSE</string>
         </property>
        </widget>
       </item>
@@ -56,7 +56,7 @@
          <string>README 帮助文件</string>
         </property>
         <property name="description">
-         <string>https://github.com/GoodCoder666/AccountBook/blob/master/README.md</string>
+         <string>https://github.com/GoodCoder666/AccountBook/blob/main/README.md</string>
         </property>
        </widget>
       </item>
