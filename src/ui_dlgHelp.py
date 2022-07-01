@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'dlgHelp.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.2.3
+## Created by: Qt User Interface Compiler version 6.2.4
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -85,9 +85,9 @@ class Ui_Dialog(object):
         self.giteeLink.setText(QCoreApplication.translate("Dialog", u"Gitee \u955c\u50cf\u5730\u5740", None))
         self.giteeLink.setDescription(QCoreApplication.translate("Dialog", u"https://gitee.com/goodcoder666/AccountBook", None))
         self.licenseLink.setText(QCoreApplication.translate("Dialog", u"\u7248\u6743\u6761\u6b3e\uff08GPLv3\uff09", None))
-        self.licenseLink.setDescription(QCoreApplication.translate("Dialog", u"https://github.com/GoodCoder666/AccountBook/blob/master/LICENSE", None))
+        self.licenseLink.setDescription(QCoreApplication.translate("Dialog", u"https://github.com/GoodCoder666/AccountBook/blob/main/LICENSE", None))
         self.readmeLink.setText(QCoreApplication.translate("Dialog", u"README \u5e2e\u52a9\u6587\u4ef6", None))
-        self.readmeLink.setDescription(QCoreApplication.translate("Dialog", u"https://github.com/GoodCoder666/AccountBook/blob/master/README.md", None))
+        self.readmeLink.setDescription(QCoreApplication.translate("Dialog", u"https://github.com/GoodCoder666/AccountBook/blob/main/README.md", None))
         self.btnUpdate.setText(QCoreApplication.translate("Dialog", u"\u68c0\u67e5\u66f4\u65b0", None))
         self.labVersion.setText(QCoreApplication.translate("Dialog", u"\u7248\u672c\u53f7\uff1a1.0.0 Stable (x64)", None))
         self.label.setText(QCoreApplication.translate("Dialog", u"<html><head/><body><p>\u611f\u8c22\u4f7f\u7528<span style=\" font-weight:700;\">\u8d26\u672c</span>\uff01\u6b22\u8fce\u5728<a href=\"https://github.com/GoodCoder666/AccountBook/issues\"><span style=\" text-decoration: underline; color:#0000ff;\">issues</span></a>\u6307\u51fabug\u95ee\u9898\u6216\u63d0\u51fa\u4fee\u6539\u610f\u89c1\u3002 </p><p>\u521b\u4f5c\u4e0d\u6613\uff0c\u5982\u679c\u60a8\u4e5f\u559c\u6b22<span style=\" font-weight:700;\">\u8d26\u672c</span>\uff0c\u8bf7\u5728<a href=\"https://github.com/GoodCoder666/AccountBook\"><span style=\" text-decoration: underline; color:#0000ff;\">GitHub</span></a>\u4e0a\u70b9\u4e2aStar\uff0c\u611f\u8c22\u60a8\u7684\u652f\u6301\uff01</p></body></html>", None))
