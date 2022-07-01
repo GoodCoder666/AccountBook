@@ -15,7 +15,7 @@ from ui_dlgHelp import Ui_Dialog as Ui_dlgHelp
 from ui_MainWindow import Ui_MainWindow
 
 # Version info
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 CHANNEL = 'stable'
 BUILD_DATE = '2022-07-01'
 FULL_VERSION = f'{VERSION}-{CHANNEL} ({BUILD_DATE}) on {sys.platform}'
