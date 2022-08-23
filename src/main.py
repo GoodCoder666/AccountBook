@@ -15,9 +15,9 @@ from ui_dlgHelp import Ui_Dialog as Ui_dlgHelp
 from ui_MainWindow import Ui_MainWindow
 
 # Version info
-VERSION = '1.0.1'
+VERSION = '1.1.0'
 CHANNEL = 'stable'
-BUILD_DATE = '2022-07-01'
+BUILD_DATE = '2022-08-23'
 FULL_VERSION = f'{VERSION}-{CHANNEL} ({BUILD_DATE}) on {sys.platform}'
 
 app = QApplication(sys.argv)
@@ -199,6 +199,9 @@ class AccountBookMainWindow(QMainWindow):
             event.accept()
         else:
             event.ignore()
+
+    def dragEnterEvent(self, event):
+        event.accept()
 
     def dropEvent(self, event):
         self.__openFile(event.mimeData().text()[8:]) # [8:] is to get rid of 'file:///'
