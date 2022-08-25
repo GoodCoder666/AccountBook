@@ -124,6 +124,8 @@
     <addaction name="actFile_Open"/>
     <addaction name="actFile_Save"/>
     <addaction name="actFile_SaveAs"/>
+    <addaction name="separator"/>
+    <addaction name="actFile_Settings"/>
    </widget>
    <widget class="QMenu" name="menu_2">
     <property name="title">
@@ -254,6 +256,18 @@
    </property>
    <property name="shortcut">
     <string>Del</string>
+   </property>
+  </action>
+  <action name="actFile_Settings">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/images/icons/settings.png</normaloff>:/images/icons/settings.png</iconset>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
    </property>
   </action>
  </widget>

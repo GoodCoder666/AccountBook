@@ -11,13 +11,14 @@ from PySide6.QtGui import QStandardItem, QStandardItemModel
 from api import ApiError, openFile, query, saveFile
 from dlgAdd import dlgAdd
 from dlgCharts import dlgCharts
+from dlgSettings import dlgSettings
 from ui_dlgHelp import Ui_Dialog as Ui_dlgHelp
 from ui_MainWindow import Ui_MainWindow
 
 # Version info
-VERSION = '1.1.0'
+VERSION = '1.2.0'
 CHANNEL = 'stable'
-BUILD_DATE = '2022-08-23'
+BUILD_DATE = '2022-08-24'
 FULL_VERSION = f'{VERSION}-{CHANNEL} ({BUILD_DATE}) on {sys.platform}'
 
 app = QApplication(sys.argv)
@@ -115,6 +116,10 @@ class AccountBookMainWindow(QMainWindow):
         filename, _ = QFileDialog.getSaveFileName(self, '另存为', filter=self.SUPPORTED_FILTERS)
         if filename:
             self.__saveFile(filename)
+
+    @Slot()
+    def on_actFile_Settings_triggered(self):
+        dlgSettings(self).exec()
 
     @Slot()
     def on_actHelp_About_triggered(self):

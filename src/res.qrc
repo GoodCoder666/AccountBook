@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="images">
+    <file>icons/settings.png</file>
     <file>icons/add.png</file>
     <file>icons/delete.png</file>
     <file>icons/search.png</file>
