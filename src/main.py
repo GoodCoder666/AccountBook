@@ -16,9 +16,9 @@ from ui_dlgHelp import Ui_Dialog as Ui_dlgHelp
 from ui_MainWindow import Ui_MainWindow
 
 # Version info
-VERSION = '1.2.0'
+VERSION = '1.2.1'
 CHANNEL = 'stable'
-BUILD_DATE = '2022-08-24'
+BUILD_DATE = '2022-08-25'
 FULL_VERSION = f'{VERSION}-{CHANNEL} ({BUILD_DATE}) on {sys.platform}'
 
 app = QApplication(sys.argv)
