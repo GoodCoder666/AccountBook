@@ -1,4 +1,4 @@
-![build](https://img.shields.io/github/workflow/status/GoodCoder666/AccountBook/Package%20Application%20with%20Pyinstaller) ![PythonVersion](https://img.shields.io/badge/Python%20Version-3.10-brightgreen)
+![build](https://img.shields.io/github/actions/workflow/status/GoodCoder666/AccountBook/pyinstaller-windows.yml?branch=main) ![PythonVersion](https://img.shields.io/badge/Python%20Version-3.10-brightgreen)
 
 # AccountBook
 
